@@ -12,29 +12,22 @@
 </head>
 <body id="top">
     
-    <div class="background-container">
-
-    <!-- MENU VIDEO -->
-    <div class="background-video background-video-menu active">
-        <iframe
-    src="https://www.youtube.com/embed/GzyiYB8BoRs?autoplay=1&mute=1&loop=1&playlist=GzyiYB8BoRs&controls=0&playsinline=1"
-    frameborder="0"
-    allow="autoplay; fullscreen"
-    allowfullscreen>
-        </iframe>
+    <div class="background-container"> 
+        <div class="background-video background-video-menu active"> 
+            <video autoplay muted loop playsinline> <source src="menu-video.mp4" type="video/mp4"> 
+                <source src="menu-video.webm" type="video/webm"> Your browser does not support the video tag. </video> 
+        </div>
+        
+        <div class="background-video background-video-sections"> 
+            <video autoplay muted loop playsinline> <source src="sections-video.mp4" type="video/mp4">
+                <source src="sections-video.webm" type="video/webm"> Your browser does not support the video tag. 
+            </video> 
+        </div> 
+        <div class="gradient-bg"></div> 
+        <div class="refraction-overlay"></div> 
+        <div class="scanlines"></div> 
+        <div class="noise-texture"></div> 
     </div>
-
-    <!-- SECTIONS VIDEO -->
-    <div class="background-video background-video-sections">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2M3aI4Ze8N8?si=EYZWv-l-63kOiSjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-
-    <div class="gradient-bg"></div>
-    <div class="refraction-overlay"></div>
-    <div class="scanlines"></div>
-    <div class="noise-texture"></div>
-
-</div>
 
     <div class="main-container">
         <div class="left-panel">
