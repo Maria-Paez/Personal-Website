@@ -320,8 +320,8 @@ body {
 .menu-list {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin: 2rem auto;
+    gap: 0.3rem;
+    margin: 3rem auto;
     width: auto;
     max-width: 520px;
     align-items: center;

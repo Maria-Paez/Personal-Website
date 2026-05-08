@@ -11,26 +11,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
+    
     <div class="background-container">
-        <div class="background-video background-video-menu active">
-            <video autoplay muted loop playsinline>
-                <source src="menu-video.mp4" type="video/mp4">
-                <source src="menu-video.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="background-video background-video-sections">
-            <video autoplay muted loop playsinline>
-                <source src="sections-video.mp4" type="video/mp4">
-                <source src="sections-video.webm" type="video/webm">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="gradient-bg"></div>
-        <div class="refraction-overlay"></div>
-        <div class="scanlines"></div>
-        <div class="noise-texture"></div>
+
+    <!-- MENU VIDEO -->
+    <div class="background-video background-video-menu active">
+        <iframe
+    src="https://www.youtube.com/embed/GzyiYB8BoRs?autoplay=1&mute=1&loop=1&playlist=GzyiYB8BoRs&controls=0&playsinline=1"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen>
+        </iframe>
     </div>
+
+    <!-- SECTIONS VIDEO -->
+    <div class="background-video background-video-sections">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2M3aI4Ze8N8?si=EYZWv-l-63kOiSjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="gradient-bg"></div>
+    <div class="refraction-overlay"></div>
+    <div class="scanlines"></div>
+    <div class="noise-texture"></div>
+
+</div>
 
     <div class="main-container">
         <div class="left-panel">
@@ -76,11 +80,7 @@
                     <span class="menu-text">PORTFOLIO</span>
                     <span class="menu-suffix">_</span>
                 </a>
-                <a href="#blog" class="menu-item item-4">
-                    <span class="menu-prefix">&gt;</span>
-                    <span class="menu-text">BLOG</span>
-                    <span class="menu-suffix">_</span>
-                </a>
+                
                 <a href="#contact" class="menu-item item-5">
                     <span class="menu-prefix">&gt;</span>
                     <span class="menu-text">CONTACT</span>
@@ -233,32 +233,6 @@
                 </div>
             </div>
         </section>
-        <section id="blog" class="section blog-section">
-            <div class="section-header">
-                <h2 class="section-title">BLOG</h2>
-                <div class="title-underline"></div>
-            </div>
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <div class="blog-meta">
-                        <span class="blog-date">MAY 5, 2026</span>
-                        <span class="blog-category">Design</span>
-                    </div>
-                    <h3>The Future of Web Design</h3>
-                    <p>Exploring emerging trends and technologies shaping the digital landscape.</p>
-                    <a href="#" class="read-more">READ MORE →</a>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-meta">
-                        <span class="blog-date">MAY 1, 2026</span>
-                        <span class="blog-category">Development</span>
-                    </div>
-                    <h3>Mastering React Hooks</h3>
-                    <p>A deep dive into using React Hooks for clean, efficient component logic.</p>
-                    <a href="#" class="read-more">READ MORE →</a>
-                </article>
-            </div>
-        </section>
         <section id="contact" class="section contact-section">
             <div class="section-header">
                 <h2 class="section-title">CONTACT</h2>
@@ -268,18 +242,18 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="contact-label">EMAIL:</span>
-                        <a href="mailto:maria@example.com">maria@example.com</a>
+                        <a href="mailto:mariaameliapaezvillar@gmail.com">mariaameliapaezvillar@gmail.com</a>
                     </div>
                     <div class="contact-item">
                         <span class="contact-label">LOCATION:</span>
-                        <p>Your City, Your Country</p>
+                        <p>Gainesville, Florida</p>
                     </div>
                     <div class="contact-item">
                         <span class="contact-label">FOLLOW:</span>
                         <div class="social-links">
                             <a href="#" class="social-link">Twitter</a>
                             <a href="#" class="social-link">GitHub</a>
-                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/maria-paez-41b343298" class="social-link" target="_blank">LinkedIn</a>
                         </div>
                     </div>
                 </div>
