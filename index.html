@@ -164,42 +164,30 @@
                 <div class="title-underline"></div>
             </div>
             <div class="portfolio-grid">
+                
                 <div class="portfolio-card">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-info">
-                        <h3>Project One</h3>
-                        <p>A modern web application built with React and Node.js</p>
-                        <div class="portfolio-tags">
-                            <span>React</span>
-                            <span>Node.js</span>
-                        </div>
-                    </div>
-                </div>
+
+    <a href="research.pdf" target="_blank" style="text-decoration: none; color: inherit; display: block;">
+
+        <div class="portfolio-image" style="background-image: url('jupyter.png'); background-size: cover; background-position: center;"></div>
+
+        <div class="portfolio-info">
+            <h3>Immigration Research Results</h3>
+            <p>Developed using Python and Google Colab for data analysis and visualization.</p>
+
+            <div class="portfolio-tags">
+                <span>Python</span>
+                <span>Google Colab</span>
+                <span>Data Analysis</span>
+            </div>
+        </div>
+
+    </a>
+
+</div>
                 <div class="portfolio-card">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-info">
-                        <h3>Project Two</h3>
-                        <p>An interactive UI design system for enterprise clients</p>
-                        <div class="portfolio-tags">
-                            <span>UI/UX</span>
-                            <span>Figma</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-info">
-                        <h3>Project Three</h3>
-                        <p>Full-stack e-commerce platform with real-time features</p>
-                        <div class="portfolio-tags">
-                            <span>Full-Stack</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card">
-                    <a href="https://south-florida-imigration-protection.vercel.app/" target="_blank" style="text-decoration: none; color: inherit; display: block;">
-                        <div class="portfolio-image" style="background-image: url('C:\\Users\\maria\\my website\\sfip.jpg'); background-size: cover; background-position: center;"></div>
+                    <a href="South%20Florida%20Immigration%20Protection/index.html" target="_blank" style="text-decoration: none; color: inherit; display: block;">
+                        <div class="portfolio-image" style="background-image: url('sfip.jpg'); background-size: cover; background-position: center;"></div>
                         <div class="portfolio-info">
                             <h3>Immigration Support Website</h3>
                             <p>Legal assistance website and research project for South Florida immigrants.</p>
@@ -250,12 +238,34 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="NAME" required>
-                    <input type="email" placeholder="EMAIL" required>
-                    <textarea placeholder="MESSAGE" rows="5" required></textarea>
-                    <button type="submit" class="submit-btn">SEND MESSAGE</button>
-                </form>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mdabwlwo" method="POST">
+
+    <input 
+        type="text" 
+        name="name"
+        placeholder="NAME" 
+        required
+    >
+
+    <input 
+        type="email" 
+        name="email"
+        placeholder="EMAIL" 
+        required
+    >
+
+    <textarea 
+        name="message"
+        placeholder="MESSAGE" 
+        rows="5" 
+        required
+    ></textarea>
+
+    <button type="submit" class="submit-btn">
+        SEND MESSAGE
+    </button>
+
+</form>
             </div>
         </section>
     </div>
